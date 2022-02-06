@@ -12,7 +12,7 @@ class Player(private val rule: Rule, private val start: Int, private val end: In
         }
     }
 
-    fun print(){
-        println(resultTextList)
+    fun print(ruleName:String){
+        println("$ruleName$resultTextList")
     }
 }
